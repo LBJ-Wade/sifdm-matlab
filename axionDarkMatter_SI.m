@@ -29,7 +29,7 @@ addpath('helpers/')
 %% Parameters
 m22      = 1;                             % (m/ 10^-22 eV)
 Lbox     = 20;                            % kpc
-N        = 128;  64;128;256;              % resolution
+N        = 100;  100;200;400;             % resolution
 Tfinal   = 4;                             % kpc/(km/s) ~ 978 Myr
 Nout     = 40;   400;                     % number of output
 f15      = Inf;  0;1;2;4;Inf;             % (f/10^15 GeV)
